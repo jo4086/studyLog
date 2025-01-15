@@ -1,10 +1,10 @@
 # Class
 
 ## 1. 클래스 정의하기
+
 ### python vs javascript
 
-$\rm{\color{magenta}{▼공통 결과}}$
-<span style='font-size:0.9em;'>▼ 공통 결과 </span>
+#### ${\textsf{\color{gray}{==결과==}}}$
 
 ```
 브랜드=현대, 컬러=white
@@ -19,7 +19,7 @@ BMW black
 ```
 
 <details>
-<summary> python code
+<summary> $\sf{\color{green}{1. python}}$
 </summary>
 
 ```python
@@ -56,23 +56,12 @@ print(car2)
 print(car2.brand, car2.color)
 car2.run()
 car2.stop()
-
-## 결과
-브랜드=현대, 컬러=white
-현대 white
-자동차가 달립니다.
-자동차를 정지합니다.
-
-브랜드=BMW, 컬러=black
-BMW black
-자동차가 달립니다.
-자동차를 정지합니다.
 ```
+
 </details>
 
-
 <details>
-<summary> javascript code
+<summary> $\sf{\color{red}{2. javascript}}$
 </summary>
 
 ```javascript
@@ -116,16 +105,6 @@ console.log(car2.toString())
 console.log(car2.brand, car2.color)
 car2.run()
 car2.stop()
-
-// 결과
-브랜드=현대, 컬러=white
-현대 white
-자동차가 달립니다.
-자동차를 정지합니다.
-
-브랜드=BMW, 컬러=black
-BMW black
-자동차가 달립니다.
-자동차를 정지합니다.
 ```
+
 </details>
