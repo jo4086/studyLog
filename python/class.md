@@ -136,7 +136,7 @@ car2.stop()
 -   클래스는 다른 클래스를 **상속**받아 기존 **기능을 확장**가능
 
 <details>
-<summary> 3. example $\textbf{(Click!)}$
+<summary> $\textbf{\color{hotpink}{example (Click!)}}$
 </summary>
 
 ```python
@@ -161,7 +161,7 @@ print(child.child_method())   # 출력: 자식 클래스 메서드
 -   **자식 클래스**에서 **부모 클래스**의 `메서드`와 _동일한 이름으로_ `메서드를 정의`하면, <span style='text-decoration:underline;'>부모 클래스의 메서드를 재정의</span> 할 수 있다.
 
 <details>
-<summary> 4. example $\textbf{(Click!)}$
+<summary> $\textbf{\color{hotpink}{example (Click!)}}$
 </summary>
 
 ```python
@@ -191,7 +191,7 @@ print(child.greet())   # 출력: 안녕하세요! 저는 자식 클래스입니�
 -   <span style='text-decoration:underline;'>오버라이드된 메서드 내부에서</span> **부모 클래스의 메서드를 호출**가능
 
 <details>
-<summary> 4-1. example $\textbf{(Click!)}$
+<summary> $\textbf{\color{hotpink}{example (Click!)}}$
 </summary>
 
 ```python
@@ -224,7 +224,7 @@ print(child.greet())
 -   자식 클래스에서 부모 클래스와 동일한 이름의 속성을 정의하면 부모의 속성을 덮어씀
 
 <details>
-<summary> 4-2. example $\textbf{(Click!)}$
+<summary> $\textbf{\color{hotpink}{example (Click!)}}$
 </summary>
 
 ```python
@@ -248,7 +248,7 @@ print(Child.message)   # 출력: 자식 클래스의 메시지
      ▶ **`연산자 오버로딩`**이라고 부름
 
 <details>
-<summary> 4-3. example $\textbf{(Click!)}$
+<summary> $\textbf{\color{hotpink}{example (Click!)}}$
 </summary>
 
 ```python
