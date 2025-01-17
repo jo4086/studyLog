@@ -26,3 +26,10 @@ const product = await Item.findByPk(item.itemId, { transaction })
 
 '''
 
+## JWT 토큰 (Json Web Token)
+
+**JWT(_json web token_)** 은 JSON 형식의 데이터를 이용 => 사용자 인증 및 정보를 **안전하게 전달**하기 위한 개방형 표준(_RFC 7519_)
+
+### ${\textsf{\color{navy}{1. JWT의 구조}}}$
+1. $\textsf{\footnotesize{\color{blue}{ 헤더(Header)}}}$
+    - sad
