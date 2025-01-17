@@ -47,3 +47,25 @@ const product = await Item.findByPk(item.itemId, { transaction })
     ```
 
     </details>
+
+2. $\textsf{\color{blue}{ Payload(페이로드)}}$
+
+    - **클레임(claim)**을 포함
+    - 클레임(claim): 토큰에 담길 데이터로 **크게 3가지로 분류**
+        - **등록된 클레임 (Registered Claims)**: 사전에 정의된 표준 클레임 (ex: `iss`, `exp`, `sub` 등)
+        - **공개 클레임 (Public Claims)**: 사용자 정의 데이터
+        - **비공개 클레임 (Private Claims)**: 특정 애플리케이션 간에만 사용되는 데이터
+
+    <details>
+    <summary> $\textsf{\color{hotpink}{example - Payload}} </summary>
+
+    ```json
+    {
+        "sub": "1234567890",
+        "name": "John Doe",
+        "admin": true
+    }
+    ```
+
+    </details>
+
