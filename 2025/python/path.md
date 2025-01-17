@@ -1,0 +1,1 @@
+C:\Users\EZENIC-031\AppData\Local\Programs\Microsoft VS Code\bin
