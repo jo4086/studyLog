@@ -23,6 +23,42 @@
     4. **데이터 전송**: 양쪽에서 데이터를 송수신
     5. **연결 종료**: 데이터 통신이 끝난 후 연결을 종료
 
+### $\textsf{\color{navy}{3. 소켓의 유형}}$
+
+1). **스트림 소켓 (_Stream Socket_)**
+
+-   **프로토콜**: TCP (_Transmission Control Protocol_)
+-   **특징**
+    -   신뢰성 있는 연결
+    -   순차적 데이터 전달 및 무손실
+-   **사용처**
+    -   실시간 스트리밍
+    -   파일 전송
+
+2). **데이터그램 소켓 (_Datagram Socket_)**
+
+-   **프로토콜**: UDP (_User Datagram Protocol_)
+-   **특징**
+    -   비 연결형 통신
+    -   빠른 데이터 전송 **AND** 신뢰성은 중요하지 않은 경우
+-   **사용처**
+    -   온라인게임
+    -   동영상 스트리밍
+
+3). **로우 소켓 (_Raw Socket_)**
+
+-   **특징**
+    -   TCP/UDP와 같은 프로토콜 헤더를 사용하지 않음
+    -   데이터 패킷을 직접 처리
+-   **사용처**
+    -   네트워크 패킷 분석
+    -   방화벽 애플리케이션
+
+### $\textsf{\color{navy}{4. Socket.IO}}$
+
+-   Node.js에서 사용되는 라이브러리
+-   **실시간 양방향 통신**울 구현하는데 사용
+-   기본적으로 **WebSocket 프로토콜** 위에서 동작 $\texttt{\color{red}{BUT}}$ <span style="text-decoration:underline;color:green;">브라우저와 네트워크 환경</span>에 따라 자동으로 폴백(Fallback)하여 AJAX 폴링 등 다른 기술을 활용할 수 있음
 
 ### $\textsf{\color{navy}{5. 소켓의 준비}}$
 
