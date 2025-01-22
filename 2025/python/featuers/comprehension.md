@@ -40,3 +40,5 @@ print(squares) # [0, 1, 4, 9, 16]
 
 ##### 5. ㅇㅇ
 ##### 6. ㅇㅇ
+
+git submodule foreach 'git pull'
